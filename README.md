@@ -11,4 +11,4 @@ This project is a basic jeopardy game without calulation of points by categories
 For this project, I implemented the front end functionalities of favoriting stories, adding and deleting stories from page as well as being able to display user stories
 
 ## Multi-algorithm-runner 
-Worked as a collaborator for multi-algoirthm-runner (https://multi-algorithm-runner.web.app). I was actively involved in creating unit and integration tests for our calculators as well as testing the UI on the website itself
+Worked as a collaborator for multi-algoirthm-runner (https://multi-algorithm-runner.web.app) (Github: https://github.com/natn2323/multi-algorithm-runner). I was actively involved in creating unit and integration tests for our calculators as well as testing the UI on the website itself
