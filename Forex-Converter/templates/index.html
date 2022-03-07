@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forex Currency Converter</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+
+<h1>Welcome to Forex Conversion!</h1>    
+
+<section class ="error-msgs">
+
+{% if errors %}   
+{% for (err_type,msg) in errors.items()%}
+    <p class="errors">
+        {% if errors[err_type] %}
+            {{msg}}
+        {% endif %}
+    </p>
+{% endfor %}
+{% endif %}
+</section>
+
+<form action="/form-check" id ="forex-form" method = "POST">
+
+<div>
+    <label for="conv-from">Converting From:</label>
+    <input type="text" name="curr-from" id="curr-from" required> 
+</div>
+
+<div>
+    <label for="conv-to">Converting To:</label>
+    <input type="text" name="curr-to" id="curr-to" required>    
+</div>
+
+<div>
+    <label for="amount">Amount:</label>
+    <input type="text" name="amount" id="conv-amt" required> 
+</div>
+
+<button id="submit">Convert!</button>
+
+</form>
+
+<p class="conv-result">
+    {{conv_result}}
+</p>
+
+
+</body>
+</html>

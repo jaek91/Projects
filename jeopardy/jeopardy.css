@@ -1,0 +1,71 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#jeopardy {
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+#table-body {
+  border-top: 1em solid transparent;
+  background-color: #00008b;
+  margin: 0 auto;
+}
+
+td {
+  padding: 20px 20px;
+}
+thead > tr > td {
+  color: whitesmoke;
+  font-size: 14px;
+  background-color:#00008b;
+}
+
+tbody > tr > td {
+  padding: 20px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.start-button {
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  display: block;
+  margin: 0 900px 300px auto;
+  transform: translateY(500px);
+}
+
+.start-button:hover {
+  cursor: pointer;
+}
+
+.restart-button {
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  display: block;
+  margin: 0 900px 300px auto;
+  transform: translateY(500px);
+}
+
+.restart-button:hover {
+  cursor: pointer;
+}

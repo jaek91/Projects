@@ -1,0 +1,45 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #CCCCCC;
+}
+
+#forex-form {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    width: 400px;
+} 
+
+#forex-form > div {
+    display: flex;
+    flex: 0.5;
+    flex-basis: auto;
+    flex-direction: column;
+}
+
+/* Used button code from here: https://www.jotform.com/help/118-how-to-customize-the-submit-button-with-css/ */
+#forex-form > button {
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial,sans-serif;
+    text-shadow: none;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.error-msgs {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: tomato;
+    font-size: 20px;
+}
+
+.conv-result {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #03C03C;
+    font-size: 30px;
+}
