@@ -10,5 +10,5 @@ This project is a basic jeopardy game without calulation of points by categories
 ## Hack-or-Snooze
 For this project, I implemented the front end functionalities of favoriting stories, adding and deleting stories from page as well as being able to display user stories
 
-### Multi-algorithm-runner 
+## Multi-algorithm-runner 
 Worked as a collaborator for multi-algoirthm-runner (https://multi-algorithm-runner.web.app). I was actively involved in creating unit and integration tests for our calculators as well as testing the UI on the website itself
